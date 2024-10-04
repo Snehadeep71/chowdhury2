@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <!-- Logo -->
+                <a href="index.html" class="logo"><i class="fa-solid fa-plane"></i>Chowdhury Travels</a>
+
+                <!-- Hamburger Menu Icon (for mobile) -->
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <!-- Navbar Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="about.html"><i class="fa fa-info-circle"></i> About Us</a></li>
+                    <li><a href="destination.html"><i class="fa fa-plane"></i> Destinations</a></li>
+                    <li><a href="gallery.html"><i class="fa fa-images"></i> Gallery</a></li>
+                    <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+                    <li><a href="#blog"><i class="fa fa-pencil-alt"></i> Blog</a></li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Date & Pricing</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Multiple Packages</a></li>
+                            <li><a href="#">Multiple Day - Recurring</a></li>
+                            <li><a href="#">Multiple Date - One Time</a></li>
+                            <li><a href="#">One Day - Recurring</a></li>
+                            <li><a href="#">One Day - One Time</a></li>
+                            <li><a href="#">Variable Pricing</a></li>
+                            <li><a href="#">Fixed Price / Person</a></li>
+                            <li><a href="#">Room Based Pricing</a></li>
+                            <li><a href="#">No Room Based Pricing</a></li>
+                            <li><a href="#">Referral (link to external website)</a></li>
+                        </ul>
+                    </li> -->
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="gsec-01">
+    <section class="portfolio">
+        <h1>Gallery</h1>
+        <div class="filters">
+            <span class="filter active" data-filter="all">All Work</span>
+            <span class="filter" data-filter="design">Design</span>
+            <span class="filter" data-filter="development">Development</span>
+            <span class="filter" data-filter="logo">Logo</span>
+        </div>
+
+        <div class="gallery">
+            <!-- Design category -->
+            <div class="item design">
+                <img src="images/shimla1.jpeg" alt="Design Image 1">
+                <div class="overlay">
+                    <h3>Design 1</h3>
+                    <p>Beautiful design work.</p>
+                </div>
+            </div>
+            <div class="item design">
+                <img src="images/slide1+.jpeg" alt="Design Image 2">
+                <div class="overlay">
+                    <h3>Design 2</h3>
+                    <p>Another creative design.</p>
+                </div>
+            </div>
+
+            <!-- Development category -->
+            <div class="item development">
+                <img src="images/slide2+.jpeg" alt="Development Image 1">
+                <div class="overlay">
+                    <h3>Website 1</h3>
+                    <p>Web development project.</p>
+                </div>
+            </div>
+            <div class="item development">
+                <img src="images/slide3+.jpeg" alt="Development Image 2">
+                <div class="overlay">
+                    <h3>Website 2</h3>
+                    <p>Another web development project.</p>
+                </div>
+            </div>
+
+            <!-- Logo category -->
+            <div class="item logo">
+                <img src="images/slide4+.jpeg" alt="Logo Design 1">
+                <div class="overlay">
+                    <h3>Logo 1</h3>
+                    <p>Beautiful logo design.</p>
+                </div>
+            </div>
+            <div class="item logo">
+                <img src="images/slide5+.jpg" alt="Logo Design 2">
+                <div class="overlay">
+                    <h3>Logo 2</h3>
+                    <p>Another creative logo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+    <!---------------footer section html starts here----------------->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-column footer-branding">
+                <h2>TravelTour</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+                <div class="awards">
+                    <img src="images/slide1.jpg" alt="Travvy Award Winner">
+                    <img src="images/slide2.jpg" alt="British Travel Award Winner 2011">
+                </div>
+            </div>
+
+            <div class="footer-column footer-destinations">
+                <h3>Top Destinations</h3>
+                <div class="destination-grid">
+                    <div class="destination">
+                        <img src="images/slide3.jpg" alt="Africa">
+                        <p>Africa</p>
+                    </div>
+                    <div class="destination">
+                        <img src="images/slide4.jpeg" alt="America">
+                        <p>America</p>
+                    </div>
+                    <div class="destination">
+                        <img src="images/slide1.jpg" alt="Asia">
+                        <p>Asia</p>
+                    </div>
+                    <div class="destination">
+                        <img src="images/slide2.jpg" alt="Eastern Europe">
+                        <p>Eastern Europe</p>
+                    </div>
+                    <div class="destination">
+                        <img src="images/slide3.jpg" alt="Europe">
+                        <p>Europe</p>
+                    </div>
+                    <div class="destination">
+                        <img src="images/slide4.jpeg" alt="South America">
+                        <p>South America</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-column footer-contact">
+                <h3>Contact Info</h3>
+                <p>Address: 12 Main Street Pt. London</p>
+                <p>Phone: +44 3656 4567</p>
+                <p>Email: contact@traveltourtheme.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-vimeo"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Goodlayers, All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!---------------footer section html ends here----------------->
+
+    <script src="script.js"></script>
+    <script src="gallery.js"></script>
+
+</body>
+</html>

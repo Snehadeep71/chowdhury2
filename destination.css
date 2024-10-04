@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----------------------section 1 destination css starts here-------------*/
+.dsec-01{
+    width: 100%;
+    min-height: 100vh;
+    background: url(images/Beige\ Minimal\ Aesthetic\ Photo\ Collage\ .png) center center/cover;
+    position: relative;
+    z-index: 1;
+}
+.dsec-01 h1{
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    color: #fff;
+    margin: auto auto;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+/*----------------------section 1 destination css ends here-------------*/
+/*----------------------section 2 destination css starts here-------------*/
+.dsec-02{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    color: #000;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+.dsec-02 h1{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+.dsec-02boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    gap: 30px;
+    line-height: 1.6;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    /* transition: all  0.5s; */
+}
+.dsec-02box1{
+    /* display: flex; */
+    border: 1px solid red;
+    flex: 1 1 30%;
+    margin: 0 auto;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+.dsec-02box1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all  0.5s;
+}
+.dsec-02box1left{
+    width: 100%;
+    height: auto;
+    
+}
+.dsec-02box1left img{
+    width: 100%;
+   height: 200px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   
+}
+.dsec-02box1right{
+    width: 100%;
+    height: auto;
+    /* background-color: antiquewhite; */
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.dsec-02box1right p{
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    line-height: 1.2;
+}
+.dsec-02box1right h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+/*----------------------section 2 destination css ends here-------------*/
+/*----------------------section 2 destination responsive  css starts here-------------*/
+@media only screen and (min-width:200px) and (max-width:1336px){
+    .dsec-02{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .dsec-02boxes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+}
+/*----------------------section 2 destination responsive  css ends here-------------*/

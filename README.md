@@ -1,2 +1,2 @@
-# chowdhury2
-this is the second host for the chowdhury wesbite 
+# chowdhury
+this is the first host for the chowdhury website

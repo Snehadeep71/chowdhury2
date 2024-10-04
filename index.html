@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chowdhury-Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <!-- Logo -->
+                <a href="index.html" class="logo"><i class="fa-solid fa-plane"></i>Chowdhury Travels</a>
+
+                <!-- Hamburger Menu Icon (for mobile) -->
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <!-- Navbar Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="about.html"><i class="fa fa-info-circle"></i> About Us</a></li>
+                    <li><a href="destination.html"><i class="fa fa-plane"></i> Destinations</a></li>
+                    <li><a href="gallery.html"><i class="fa fa-images"></i> Gallery</a></li>
+                    <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+                    <li><a href="#blog"><i class="fa fa-pencil-alt"></i> Blog</a></li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Date & Pricing</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Multiple Packages</a></li>
+                            <li><a href="#">Multiple Day - Recurring</a></li>
+                            <li><a href="#">Multiple Date - One Time</a></li>
+                            <li><a href="#">One Day - Recurring</a></li>
+                            <li><a href="#">One Day - One Time</a></li>
+                            <li><a href="#">Variable Pricing</a></li>
+                            <li><a href="#">Fixed Price / Person</a></li>
+                            <li><a href="#">Room Based Pricing</a></li>
+                            <li><a href="#">No Room Based Pricing</a></li>
+                            <li><a href="#">Referral (link to external website)</a></li>
+                        </ul>
+                    </li> -->
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- slider -->
+    <div class="slider-container">
+        <div class="slider-wrapper">
+            <div class="slide active">
+                <iframe id="video" width="100%" height="100%"
+                    src="https://www.youtube.com/embed/90raA41jJHA?autoplay=1&mute=1&loop=1&playlist=90raA41jJHA&controls=0&showinfo=0&rel=0"
+                    allowfullscreen></iframe>
+                <div class="slidecontent">
+                    <h2>Special</h2>
+                    <h3>7 Days in Switzerland</h3>
+                    <p>Bern, Lucern, Zurich, Zermatt, Matterhorn</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/slide5+.jpg" alt="Slide 2">
+                <div class="slidecontent">
+                    <h2>Special</h2>
+                    <h3>7 Days in Switzerland</h3>
+                    <p>Bern,Lucern,Zurikh,Zermatt,Metahorn</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/slide5+.jpg" alt="Slide 2">
+                <div class="slidecontent">
+                    <h2>Special</h2>
+                    <h3>7 Days in Switzerland</h3>
+                    <p>Bern,Lucern,Zurikh,Zermatt,Metahorn</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/slide3+.jpeg" alt="Slide 3">
+                <div class="slidecontent">
+                    <h2>Special</h2>
+                    <h3>7 Days in Switzerland</h3>
+                    <p>Bern,Lucern,Zurikh,Zermatt,Metahorn</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/slide4+.jpeg" alt="Slide 4">
+                <div class="slidecontent">
+                    <h2>Special</h2>
+                    <h3>7 Days in Switzerland</h3>
+                    <p>Bern,Lucern,Zurikh,Zermatt,Metahorn</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/g3.jpeg" alt="Slide 4">
+                <div class="slidecontent">
+                    <h2>Special</h2>
+                    <h3>7 Days in Switzerland</h3>
+                    <p>Bern,Lucern,Zurikh,Zermatt,Metahorn</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/g10.jpg" alt="Slide 4">
+                <div class="slidecontent">
+                    <h2>Special</h2>
+                    <h3>7 Days in Switzerland</h3>
+                    <p>Bern,Lucern,Zurikh,Zermatt,Metahorn</p>
+                    <button class="btn2">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="prev" class="prev">❮</button>
+    <button id="next" class="next">❯</button>
+
+    <div class="dots-container">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    </div>
+
+    <!-----------section 3 html starts here----------->
+    <section class="sec-03">
+        <div class="sec-03boxes">
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/flight-t.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>500+ Destinations</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/price.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>Best Price Guarantee</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/customer-support2.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>Great Customer</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/calender-ss.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>Super Fast Booking</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------section 3 html ends here----------->
+    <!---card slider section starts here------------->
+    <section class="sec-04">
+        <div class="app">
+            <div class="cardList">
+                <button class="cardList__btn btn btn--left">
+                    <div class="icon">
+                        <svg>
+                            <use xlink:href="#arrow-left"></use>
+                        </svg>
+                    </div>
+                </button>
+
+                <div class="cards__wrapper">
+                    <div class="card current--card">
+                        <div class="card__image">
+                            <img src="images/g1.jpeg" alt="image_not_available" />
+                        </div>
+                    </div>
+
+                    <div class="card next--card">
+                        <div class="card__image">
+                            <img src="images/g2.jpeg" alt="image_not_available" />
+                        </div>
+                    </div>
+
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src="images/g4.webp" alt="image_not_available" />
+                        </div>
+                    </div>
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src="images/g5.jpg" alt="image_not_available" />
+                        </div>
+                    </div>
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src="images/g6.jpg" alt="image_not_available" />
+                        </div>
+                    </div>
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src="images/darjeeling-toy-train.png" alt="image_not_available" />
+                        </div>
+                    </div>
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src="images/g8.jpg" alt="image_not_available" />
+                        </div>
+                    </div>
+                </div>
+
+                <button class="cardList__btn btn btn--right">
+                    <div class="icon">
+                        <svg>
+                            <use xlink:href="#arrow-right"></use>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+
+            <div class="infoList">
+                <div class="info__wrapper">
+                    <div class="info current--info">
+                        <h1 class="text name">Highlands</h1>
+                        <h4 class="text location">Scotland</h4>
+                        <p class="text description">The mountains are calling</p>
+                    </div>
+
+                    <div class="info next--info">
+                        <h1 class="text name">Machu Pichu</h1>
+                        <h4 class="text location">Peru</h4>
+                        <p class="text description">Adventure is never far away</p>
+                    </div>
+
+                    <div class="info previous--info">
+                        <h1 class="text name">Chamonix</h1>
+                        <h4 class="text location">France</h4>
+                        <p class="text description">Let your dreams come true</p>
+                    </div>
+                    <div class="info previous--info">
+                        <h1 class="text name">Chamonix</h1>
+                        <h4 class="text location">France</h4>
+                        <p class="text description">Let your dreams come true</p>
+                    </div>
+                    <div class="info previous--info">
+                        <h1 class="text name">Chamonix</h1>
+                        <h4 class="text location">France</h4>
+                        <p class="text description">Let your dreams come true</p>
+                    </div>
+                    <div class="info previous--info">
+                        <h1 class="text name">Chamonix</h1>
+                        <h4 class="text location">France</h4>
+                        <p class="text description">Let your dreams come true</p>
+                    </div>
+                    <div class="info previous--info">
+                        <h1 class="text name">Chamonix</h1>
+                        <h4 class="text location">France</h4>
+                        <p class="text description">Let your dreams come true</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="app__bg">
+                <div class="app__bg__image current--image">
+                    <img src="images/slide1.jpg" alt="image_not_available" />
+                </div>
+                <div class="app__bg__image next--image">
+                    <img src="images/slide2.jpg" alt="image_not_available" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="images/slide3.jpg" alt="image_not_available" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="images/slide3.jpg" alt="image_not_available" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="images/slide3.jpg" alt="image_not_available" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="images/slide3.jpg" alt="image_not_available" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="images/slide3.jpg" alt="image_not_available" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="loading__wrapper">
+        <div class="loader--text">Loading...</div>
+        <div class="loader">
+            <span></span>
+        </div>
+    </div>
+
+
+    <svg class="icons" style="display: none;">
+        <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='328 112 184 256 328 400'
+                style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+        <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='184 112 328 256 184 400'
+                style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+    </svg>
+    <!------section 5 starts here---------------->
+    <div class="container1">
+        <div class="card__container">
+            <article class="card__article">
+                <img src="images/g1.jpeg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">Vancouver Mountains, Canada</span>
+                    <h2 class="card__title">The Great Path</h2>
+                    <a href="#" class="card__button">Read More</a>
+                </div>
+            </article>
+
+            <article class="card__article">
+                <img src="images/g2.jpeg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">Poon Hill, Nepal</span>
+                    <h2 class="card__title">Starry Night</h2>
+                    <a href="#" class="card__button">Read More</a>
+                </div>
+            </article>
+
+            <article class="card__article">
+                <img src="images/g3.jpeg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">Bojcin Forest, Serbia</span>
+                    <h2 class="card__title">Path Of Peace</h2>
+                    <a href="#" class="card__button">Read More</a>
+                </div>
+            </article>
+            <article class="card__article">
+                <img src="images/g4.webp" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">Bojcin Forest, Serbia</span>
+                    <h2 class="card__title">Path Of Peace</h2>
+                    <a href="#" class="card__button">Read More</a>
+                </div>
+            </article>
+            <article class="card__article">
+                <img src="images/g5.jpg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">Bojcin Forest, Serbia</span>
+                    <h2 class="card__title">Path Of Peace</h2>
+                    <a href="#" class="card__button">Read More</a>
+                </div>
+            </article>
+            <article class="card__article">
+                <img src="images/g6.jpg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description">Bojcin Forest, Serbia</span>
+                    <h2 class="card__title">Path Of Peace</h2>
+                    <a href="#" class="card__button">Read More</a>
+                </div>
+            </article>
+        </div>
+    </div>
+    <!------section 5 ends here---------------->
+    <!--section 6 html starts here------------->
+    <section class="sec-06">
+        <div class="sec-06content">
+            <h1>Discount 10-30% Off</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illo illum placeat vel dolore vitae
+                obcaecati dolorum iste nostrum ea!</p>
+            <button class="btn1">See Promotion Tours</button>
+        </div>
+    </section>
+    <!--section 6 html ends here------------->
+    <!-----section 7 html starts here----------->
+    <section class="sec-07">
+        <h1>Travel Articles/Read All Articles</h1>
+        <div class="sec-07boxes">
+            <img src="images/slide1.jpg" alt="image_not_available">
+            <img src="images/slide2.jpg" alt="image_not_available">
+            <img src="images/slide3.jpg" alt="image_not_available">
+            <img src="images/slide4.jpeg" alt="image_not_available">
+        </div>
+    </section>
+    <!-------section 7 html ends here----------->
+    <!--repeated section starts here------------>
+    <section class="sec-03">
+        <div class="sec-03boxes">
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/flight-t.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>500+ Destinations</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/price.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>Best Price Guarantee</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/customer-support2.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>Great Customer</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+            <div class="sec-03box1">
+                <div class="sec-03image">
+                    <img src="images/calender-ss.png" alt="image_not_available" srcset="">
+                </div>
+                <div class="sec-03content">
+                    <h3>Super Fast Booking</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--repeated section ends here------------>
+    <!---------------footer section html starts here----------------->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-column footer-branding">
+                <h2>TravelTour</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the blind texts.</p>
+                <div class="awards">
+                    <img src="images/slide1.jpg" alt="Travvy Award Winner">
+                    <img src="images/slide2.jpg" alt="British Travel Award Winner 2011">
+                </div>
+            </div>
+
+            <div class="footer-column footer-destinations">
+                <h3>Top Destinations</h3>
+                <div class="destination-grid">
+                    <div class="destination">
+                        <img src="images/slide3.jpg" alt="Africa">
+                        <p>Africa</p>
+                    </div>
+                    <div class="destination">
+                        <img src="images/slide4.jpeg" alt="America">
+                        <p>America</p>
+                    </div>
+                    <div class="destination">
+                        <img src="images/slide1.jpg" alt="Asia">
+                        <p>Asia</p>
+                    </div>
+                    <div class="destination">
+                        <img src="images/slide2.jpg" alt="Eastern Europe">
+                        <p>Eastern Europe</p>
+                    </div>
+                    <div class="destination">
+                        <img src="images/slide3.jpg" alt="Europe">
+                        <p>Europe</p>
+                    </div>
+                    <div class="destination">
+                        <img src="images/slide4.jpeg" alt="South America">
+                        <p>South America</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-column footer-contact">
+                <h3>Contact Info</h3>
+                <p>Address: 12 Main Street Pt. London</p>
+                <p>Phone: +44 3656 4567</p>
+                <p>Email: contact@traveltourtheme.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-vimeo"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Goodlayers, All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!---------------footer section html ends here----------------->
+    <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <!---card slider section ends here------------->
+    <script src="script.js"></script>
+</body>
+
+</html>
